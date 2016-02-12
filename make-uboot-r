@@ -1,0 +1,5 @@
+
+PATH=/usr/src/arm/amlogic/arc/bin:/usr/src/arm/amlogic/amlogic-uboot-gcc/bin:$PATH
+
+make all
+

@@ -1,0 +1,17 @@
+
+PATH=/usr/src/arm/amlogic/arc/bin:/usr/src/arm/amlogic/amlogic-uboot-gcc/bin:$PATH
+
+make distclean
+
+make m8m2_n200C_2G_config
+
+#make m8_mango_v1_config
+#make m8m2_n200C_v1_config
+#make m8m2_n01_config
+#make m8m2_skt_v1_config
+#make m8m2_n200_v1_config
+
+reset
+
+make all
+
